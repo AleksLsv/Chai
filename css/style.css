@@ -628,6 +628,22 @@ body {
         margin-top: 0;
     }
 
+    .footer__inner{
+        margin-bottom: 55px;
+    }
+
+    .footer__copy{
+        margin-right: 40px;
+    }
+
+    .footer__company{
+        width: 186px;
+    }
+
+    .footer__contacts{
+        width: 270px;
+    }
+
 }
 
 @media(max-width: 860px) {
