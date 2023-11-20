@@ -433,13 +433,13 @@ body {
 .footer__blockquote-author {
     font-size: 12px;
     font-style: normal;
-    /* display: block;
-    max-width: 129px; */
+    display: block;
+    max-width: 129px;
 }
 
-.footer__blockquote-author span {
+/* .footer__blockquote-author span {
     display: block;
-}
+} */
 
 .footer__contacts-text {
     font-size: 13px;
@@ -792,6 +792,10 @@ body {
         margin-left: auto;
     } */
 
+    .footer {
+        padding: 50px 0 10px;
+    }
+
     .footer__inner {
         /* grid-template-columns: repeat(3, 1fr); */
         grid-template-columns: 97px 170px 270px;
@@ -803,7 +807,7 @@ body {
     }
 
     .footer__products,
-    .footer__company{
+    .footer__company {
         grid-row: span 2;
     }
 
@@ -820,14 +824,13 @@ body {
         margin-right: 31px;
     }
 
-    .footer__products{
+    .footer__products {
         width: 107px;
     }
 
     .footer__social {
         margin-top: 19px;
     }
-
 
 }
 
@@ -936,6 +939,74 @@ body {
 
     .title {
         margin-bottom: 30px;
+    }
+
+    .footer__inner,
+    .footer__bottom {
+        padding-left: 0;
+    }
+
+    .footer__products-title,
+    .footer__company-title {
+        margin-bottom: 30px;
+    }
+
+    .footer__contacts-title {
+        margin-bottom: 20px;
+    }
+
+    .footer__inner {
+        display: flex;
+        flex-wrap: wrap;
+        /* gap: 0 133px; */
+        gap: 0;
+        margin-bottom: 50px;
+    }
+
+    .footer__products {
+        width: 97px;
+        margin-right: auto;
+        /* padding-right: 20px; */
+    }
+
+    .footer__company{
+        /* width: 155px; */
+        padding-right: 30px;
+        margin-right: 35px;
+    }
+
+
+
+    .footer__blockquote {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .footer__blockquote-text {
+        margin-bottom: 10px;
+    }
+
+    .footer__blockquote-author {
+        max-width: 100%;
+    }
+
+    .footer__contacts {
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer__nav{
+        flex-wrap: nowrap;
+    }
+
+    .footer__social {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    .footer__copy {
+        margin-right: auto;
     }
 
 
